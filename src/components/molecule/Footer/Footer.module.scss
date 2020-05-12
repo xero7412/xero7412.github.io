@@ -1,0 +1,10 @@
+@import "../../../theme.scss";
+
+.FooterBar{
+    padding: 3rem;
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--headerBg);
+    color: rgb(219, 19, 86);
+    font-family: "Poppins-Thin";
+}

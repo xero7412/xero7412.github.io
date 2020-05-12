@@ -1,0 +1,44 @@
+/**
+THEME COLORS
+ - The following colors are used across the application. 
+**/
+
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+}
+
+html{
+    /* global colors */
+    --headerBg : #9cb7df;
+    --primaryBg: #f5f5f5;
+
+
+    --primaryTheme: rgb(194, 46, 46);
+    // --primaryBg: #aa88aa;
+    --primaryText: #212121;
+    --secondaryText: #7b7b7b;
+    --primaryButtonText: #fff;
+    --primaryBorderBg: #efefef;
+    --activeSelectionBg: rgba(162, 162, 162, 0.1);
+    --primaryShadowBg: rgba(204, 204, 204, 0.7);
+}
+
+html[data-theme="dark"] {
+    /* global colors */
+    --headerBg : #1b161b;
+    --primaryBg: #221f22;
+
+
+    --primaryTheme: #e52863;
+    // --primaryBg: #1a1a1d;
+    --primaryText: rgba(255, 255, 255, 0.8);
+    --secondaryText: rgba(255, 255, 255, 0.6);
+    --primaryButtonText: #fff;
+    --primaryBorderBg: #292929;
+    --activeSelectionBg: rgba(0, 0, 0, 0.18);
+    --primaryShadowBg: rgba(8, 8, 8, 0.7);
+}
