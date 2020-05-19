@@ -5,12 +5,19 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.module.scss';
 import './theme.scss';
 import App from './App';
+import ScrollToTop from "./ScrollToTop";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+let app = (
   <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
+  </BrowserRouter>
+)
+
+ReactDOM.render(
+  app,
   document.getElementById('root')
 );
 

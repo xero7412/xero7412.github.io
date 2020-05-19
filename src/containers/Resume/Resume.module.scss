@@ -1,0 +1,28 @@
+@import "../../theme.scss";
+
+.infoSection{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    
+}
+
+.infoContent{ 
+    font-size: 18px;
+    color: rgb(201, 95, 95);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Poppins-Light";
+    text-align: center;
+}
+
+.heading{
+    font-family:"Poppins-Thin";
+    // font-size: 42px;
+    color: rgb(109, 160, 33);
+    letter-spacing: 2px;
+}

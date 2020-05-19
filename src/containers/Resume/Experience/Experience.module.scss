@@ -1,0 +1,236 @@
+@import "../../../theme.scss";
+
+.expSection{
+    background-color: rgb(216, 216, 216);
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+
+.expContent{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+}
+
+.sectionHead{
+    font-family:"Poppins-Thin";
+    // font-size: 42px;
+    color: rgb(109, 160, 33);
+    letter-spacing: 2px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    font-family: "Poppins-Light";
+}
+
+.timelineText{
+    font-size: 16px;
+    font-family: "Poppins-Light";
+}
+
+.heading{
+    font-size: 16px;
+    font-family: "Poppins-Medium";
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 25px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timelinePanel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 75px;
+    text-align: left;
+}
+
+.timeline>li .timelinePanel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timelinePanel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timelineImage {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #3dc2b0;
+}
+
+.timeline>li .timelineImage h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timelineInverted>.timelinePanel {
+    float: right;
+    padding: 0 20px 0 75px;
+    text-align: left;
+}
+
+.timeline>li.timelineInverted>.timelinePanel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timelineInverted>.timelinePanel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+// .timeline .timelineHeading h4 {
+//     margin-top: 0;
+//     color: inherit;
+// }
+
+.subheading {
+    text-transform: none;
+    font-family: "Poppins-Medium";
+}
+
+// .timeline .timelineBody>p,
+// .timeline .timelineBody>ul {
+//     margin-bottom: 0;
+// }
+
+@media(min-width:768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timelinePanel {
+        float: left;
+        width: 45%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timelineImage {
+        left: 52%;
+        width: 70px;
+        height: 70px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timelineImage h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timelineInverted>.timelinePanel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media(min-width:992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timelinePanel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timelineImage {
+        width: 70px;
+        height: 70px;
+        margin-left: -55px;
+    }
+
+    .timeline>li .timelineImage h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timelineInverted>.timelinePanel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .timeline>li {
+        min-height: 100px;
+    }
+
+    .timeline>li .timelinePanel {
+        padding: 0 20px 20px 5px;
+    }
+
+    .timeline>li .timelineImage {
+        width: 70px;
+        height: 70px;
+        margin-left: -58px;
+    }
+
+    .timeline>li .timelineImage h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timelineInverted>.timelinePanel {
+        padding: 0 5px 20px 20px;
+    }
+}

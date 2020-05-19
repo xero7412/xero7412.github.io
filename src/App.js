@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 
 import Home from './containers/Home/Home';
 import cx from "classnames";
 import styles from './App.module.scss';
+import Resume from './containers/Resume/Resume';
 
 class App extends Component {
 
@@ -59,20 +60,32 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className={cx("px-0 mx-0", styles.background)}>
-          <div className="container">
-            <label className={styles.switch}>
-              <input type="checkbox"
-                checked={this.state.checked}
-                onChange={() => this.toggleThemeChange()}
-              />
-              <div className={cx(styles.slider, styles.round)}></div>
-            </label>
+        <div className={cx("px-0 mx-0 ", styles.header)}>
+          <div className={styles.pageContainer}>
+            <div className="row px-0 mx-0">
+              <div>
+                <Link to="/" className={styles.homeButton}>
+                  <span role="img">⚙︎</span></Link>
+              </div>
+              <div className="ml-auto d-flex">
+                <div className={styles.downloadLink}>Download&nbsp;&nbsp;⇲</div>
+
+                <label className={styles.switch}>
+                  <input type="checkbox"
+                    checked={this.state.checked}
+                    onChange={() => this.toggleThemeChange()}
+                  />
+                  <div className={cx(styles.slider, styles.round)}></div>
+                </label>
+              </div>
+            </div>
           </div>
         </div>
-        
-        <Route path='/' exact component={Home} />
-
+        <Switch>
+          <Route path='/resume' exact component={Resume} />
+          <Route path='/' exact component={Home} />
+          
+        </Switch>
       </React.Fragment>
     );
   }
