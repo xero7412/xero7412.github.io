@@ -1,23 +1,25 @@
 import React, { Component } from "react";
-import styles from "./Experience.module.scss";
+import styles from "./Education.module.scss";
 import cx from "classnames";
-import laptop from "../../../assets/icons/laptop.png";
+import grad from "../../../assets/icons/grad.png";
+import book from "../../../assets/icons/book.png";
 
-class Experience extends Component {
+
+class Education extends Component {
     render() {
         return (
             <React.Fragment>
                 <div className={styles.expSection} >
                     <div className={styles.expContent}>
                         <br />
-                        <h2 className={styles.sectionHead}>EXPERIENCE</h2>
+                        <h2 className={styles.sectionHead}>EDUCATION</h2>
                         <div className={"mt-5"}>
                             <div className="row px-0 mx-0">
                                 <div className="col-lg-12 px-0">
                                     <ul className={styles.timeline}>
                                         <li>
-                                            <div className={styles.timelineImage}>
-                                                <img className={cx(styles.imgircle, styles.imgResponsive)} src={laptop} alt="" />
+                                            <div className={styles.timelineImageGrad}>
+                                                <img className={cx(styles.imgResponsiveGrad)} src={grad} alt="" />
                                             </div>
                                             <div className={styles.timelinePanel}>
                                                 <div className={styles.timelineHeading}>
@@ -25,13 +27,13 @@ class Experience extends Component {
                                                     <div className={styles.subheading}>Our Humble Beginnings</div>
                                                 </div>
                                                 <div className={styles.timelineBody}>
-                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span>
+                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={styles.timelineInverted}>
                                             <div className={styles.timelineImage}>
-                                                <img className={cx(styles.imgircle, styles.imgResponsive)} src={laptop} alt="" />
+                                                <img className={cx(styles.imgResponsive)} src={book} alt="" />
                                             </div>
                                             <div className={styles.timelinePanel}>
                                                 <div className={styles.timelineHeading}>
@@ -39,13 +41,13 @@ class Experience extends Component {
                                                     <div className={styles.subheading}>Our Humble Beginnings</div>
                                                 </div>
                                                 <div className={styles.timelineBody}>
-                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span>
+                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                                                 </div>
                                             </div>
                                         </li>
                                         <li>
                                             <div className={styles.timelineImage}>
-                                                <img className={cx(styles.imgircle, styles.imgResponsive)} src={laptop} alt="" />
+                                                <img className={cx(styles.imgResponsive)} src={book} alt="" />
                                             </div>
                                             <div className={styles.timelinePanel}>
                                                 <div className={styles.timelineHeading}>
@@ -53,7 +55,7 @@ class Experience extends Component {
                                                     <div className={styles.subheading}>Our Humble Beginnings</div>
                                                 </div>
                                                 <div className={styles.timelineBody}>
-                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span>
+                                                    <span className={styles.timelineText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                                                 </div>
                                             </div>
                                         </li>
@@ -70,4 +72,4 @@ class Experience extends Component {
 
 }
 
-export default Experience;
+export default Education;

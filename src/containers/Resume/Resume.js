@@ -3,6 +3,7 @@ import styles from "./Resume.module.scss";
 import Experience from "./Experience/Experience";
 import { withRouter } from "react-router";
 import Skills from "./Skills/Skills";
+import Education from "./Education/Education";
 
 
 class Resume extends Component {
@@ -24,6 +25,8 @@ class Resume extends Component {
                 <Experience/>
 
                 <Skills/>
+
+                <Education/>
 
 
 

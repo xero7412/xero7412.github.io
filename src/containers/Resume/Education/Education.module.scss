@@ -1,7 +1,7 @@
 @import "../../../theme.scss";
 
 .expSection {
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(240, 234, 234);
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -44,16 +44,16 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 25px;
+    right: 25px;
     width: 3px;
     margin-left: -1.5px;
-    background-color: #4B515A;
+    background-color: #4b515a;
     margin-top: 6px;
 }
 
 .timeline > li {
     position: relative;
-    margin-bottom: 75px;
+    margin-bottom: 90px;
 }
 
 .timeline > li:before,
@@ -70,9 +70,10 @@
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 75px;
-    text-align: left;
-    margin-bottom:40px
+    // padding: 0 20px 0 75px;
+    text-align: right;
+    // margin-right: 3rem;
+    padding: 0 75px 0 0px;
 }
 
 .timeline > li .timelinePanel:before {
@@ -87,20 +88,28 @@
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0;
+    // padding: 0 75px 0 0px;
 }
 
 .timelineImage {
     z-index: 100;
     position: absolute;
-    left: 0;
+    right: 11px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.timelineImageGrad {
+    z-index: 100;
+    position: absolute;
+    right: 0;
     margin-left: 0;
     text-align: center;
 }
 
 .timeline > li.timelineInverted > .timelinePanel {
     float: right;
-    padding: 0 20px 0 75px;
-    text-align: left;
+    text-align: right;
 }
 
 .timeline > li.timelineInverted > .timelinePanel:before {
@@ -108,6 +117,7 @@
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
+    padding: 0 75px 0 0px;
 }
 
 .timeline > li.timelineInverted > .timelinePanel:after {
@@ -127,15 +137,20 @@
 }
 
 .imgResponsive{
-    height: 38px;
-    margin-top: 4px;
+    height: 40px;
 }
 
+.imgResponsiveGrad{
+    height: 42px;
+}
 
 @media (min-width: 768px) {
-
     .imgResponsive{
-        height: 40px;
+        height: 56px;
+    }
+
+    .imgResponsiveGrad{
+        height: 54px;
     }
 
     .timeline:before {
@@ -144,7 +159,7 @@
 
     .timeline > li {
         margin-bottom: 100px;
-        min-height: 100px;
+        min-height: 120px;
     }
 
     .timeline > li .timelinePanel {
@@ -155,7 +170,11 @@
     }
 
     .timelineImage {
-        left: 53.5%;
+        right: 47%;
+        margin-left: -50px;
+    }
+    .timelineImageGrad {
+        right: 45.5%;
         margin-left: -50px;
     }
 
@@ -168,7 +187,11 @@
 
 @media (min-width: 1023px) {
     .imgResponsive{
-        height: 45px;
+        height: 56px;
+    }
+
+    .imgResponsiveGrad{
+        height: 54px;
     }
 
     .timeline > li {
@@ -179,27 +202,34 @@
         padding: 0 20px 20px;
     }
 
-    .timeline:before {
-        left: 50%;
+    .timelineImageGrad {
+        right: 46.5%;
+        margin-left: -50px;
     }
 
     .timelineImage {
-        left: 52.5%;
+        right: 47.5%;
         margin-left: -50px;
     }
 
     .timeline > li.timelineInverted > .timelinePanel {
         padding: 0 20px 20px;
     }
+    
+    
 }
 
 @media (min-width: 1200px) {
     .imgResponsive{
-        height: 50px;
+        height: 60px;
     }
-    
+
+    .imgResponsiveGrad{
+        height: 55px;
+    }
+
     .timeline > li {
-        min-height: 100px;
+        min-height: 120px;
     }
 
     .timeline > li .timelinePanel {
@@ -207,12 +237,13 @@
     }
 
     .timelineImage {
-        left: 52%;
-        margin-left: -55px;
+        right: 48%;
+        margin-left: -58px;
     }
 
-    .timeline:before {
-        left: 50%;
+    .timelineImageGrad {
+        right: 47%;
+        margin-left: -58px;
     }
 
     .timeline > li.timelineInverted > .timelinePanel {

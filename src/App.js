@@ -5,6 +5,7 @@ import Home from './containers/Home/Home';
 import cx from "classnames";
 import styles from './App.module.scss';
 import Resume from './containers/Resume/Resume';
+import home from "./assets/icons/home.png";
 
 class App extends Component {
 
@@ -65,7 +66,10 @@ class App extends Component {
             <div className="row px-0 mx-0">
               <div>
                 <Link to="/" className={styles.homeButton}>
-                  <span role="img">⚙︎</span></Link>
+                  <span role="img">
+                    <img src={home} alt="home" style={{height:"41px",width:"41px"}}/>
+                  </span>
+                  </Link>
               </div>
               <div className="ml-auto d-flex">
                 <div className={styles.downloadLink}>Download&nbsp;&nbsp;⇲</div>

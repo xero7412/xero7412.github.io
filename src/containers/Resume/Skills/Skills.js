@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "./Skills.module.scss";
-import cx from "classnames";
+// import cx from "classnames";
 import SkillsScale from "../../../components/SkillsScale/SkillsScale"
 
 class Skills extends Component {
