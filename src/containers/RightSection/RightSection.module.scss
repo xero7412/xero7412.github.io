@@ -1,0 +1,35 @@
+.paddingSection{
+    padding: 2rem 3rem;
+}
+
+.aboutCard{
+    padding: 1rem;
+    border: 1px solid rgb(84, 163, 140);
+    background-color: lightblue;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
+    font-size: 20px;
+}
+
+.headingSmallBold{
+    font-size: 18px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.expCard{
+    padding: 2rem;
+    background-color: lightyellow;
+}
+
+.expHeading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.expSubHeading{
+    font-size: 18px;
+}
+
+.cardText{
+    font-size: 14px;
+}

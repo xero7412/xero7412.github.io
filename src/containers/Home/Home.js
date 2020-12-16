@@ -14,7 +14,6 @@ class Home extends Component {
     render() {
         return (
             <React.Fragment>
-
                 <div className={styles.homePage}>
                     <div className="container">
                         <div className={styles.centerImage}>

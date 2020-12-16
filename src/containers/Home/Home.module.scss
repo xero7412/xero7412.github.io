@@ -1,24 +1,24 @@
 @import "../../theme.scss";
 
-.homePage{
+.homePage {
     background-color: var(--primaryBg);
     // background-color: peru;
 }
 
-.centerImage{
+.centerImage {
     text-align: center;
-    padding-top:4.5rem ;
+    padding-top: 4.5rem;
     padding-bottom: 1rem;
 }
 
-.infoText{
+.infoText {
     font-size: 32px;
     color: rgb(241, 64, 64);
     font-family: "Poppins-Thin";
     padding-bottom: 2rem;
 }
 
-.infoText2{
+.infoText2 {
     font-size: 32px;
     color: rgb(241, 64, 64);
     font-family: "Poppins-Regular";
@@ -26,9 +26,9 @@
     margin-top: 6rem;
 }
 
-.homeTabsContent{
-    padding-top:4rem;
-    padding-bottom:4rem;
+.homeTabsContent {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     color: rgb(241, 64, 64);
     text-align: center;
     font-family: "Poppins-Thin";
@@ -36,10 +36,10 @@
     transition: ease-out 0.8s;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    &:hover{
+    &:hover {
         font-size: 36px;
         background-color: yellowgreen;
         cursor: pointer;
     }
-    // background-color: whitesmoke;   
+    // background-color: whitesmoke;
 }
