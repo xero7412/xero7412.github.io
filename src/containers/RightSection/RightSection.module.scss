@@ -1,35 +1,63 @@
 .paddingSection{
-    padding: 2rem 3rem;
+    padding: 1rem 0rem;
+    // background-color: hotpink;
 }
 
 .aboutCard{
-    padding: 1rem;
-    border: 1px solid rgb(84, 163, 140);
-    background-color: lightblue;
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
-    font-size: 20px;
+    padding: 5rem 3rem;
+    // border: 1px solid rgb(84, 163, 140);
+    background-color: #73939c;
+    color: #fff;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
+    font-size: 18px;
+    font-family: "Poppins-Light";
+}
+
+.bg{
+    background-color: #8a8a8a;
+    width: max-content;
+    margin-top: 4rem;
+}
+
+.bg2{
+    background-color: #535c5F;
+    width: max-content;
+    margin-top: 4rem;
+}
+
+.bg3{
+    background-color: #fff;
 }
 
 .headingSmallBold{
-    font-size: 18px;
+    font-size: 22px;
     text-align: start;
     font-weight: bold;
+    font-family: "Poppins-Thin";
+    color: #fff;
+    padding: 3rem 4rem;
 }
 
 .expCard{
-    padding: 2rem;
-    background-color: lightyellow;
+    padding: 4rem 2rem 2rem 2rem;
+    // background-color: lightyellow;
 }
 
 .expHeading{
     font-size: 18px;
     font-weight: bold;
+    font-family: "Poppins-SemiBold";
+    color: #535c5F;
 }
 
 .expSubHeading{
-    font-size: 18px;
+    font-size: 16px;
+    font-family: "Poppins-Medium";
+    color: #535c5F;
 }
 
 .cardText{
     font-size: 14px;
+    font-family: "Poppins-Light";
+    color: #535c5F;
 }

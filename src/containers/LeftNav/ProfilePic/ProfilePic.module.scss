@@ -7,9 +7,12 @@
     // overscroll-behavior: contain;
 }
 .nameText{
-    font-size: 28px;
+    font-size: 24px;
+    font-family: "Poppins-Regular";
+    color: var(--textPrimary);
 }
 
 .smallText{
     font-size: 14px;
+    font-family: "Poppins-Thin";
 }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+// import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+// import { TransitionGroup, CSSTransition } from "react-transition-group";
 
-import Home from './containers/Home/Home';
-import cx from "classnames";
-import styles from './App.module.scss';
-import Resume from './containers/Resume/Resume';
-import home from "./assets/icons/home.png";
+// import Home from './containers/Home/Home';
+// import cx from "classnames";
+// import styles from './App.module.scss';
+// import Resume from './containers/Resume/Resume';
+// import home from "./assets/icons/home.png";
 
 import HomePage from './containers/HomePage/HomePage';
 

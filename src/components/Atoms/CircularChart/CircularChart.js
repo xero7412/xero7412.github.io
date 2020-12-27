@@ -1,18 +1,17 @@
 import React from 'react';
 import styles from './CircularChart.module.scss';
 
-const CircularChart = ({ text, percent, secText }) => {
+const CircularChart = ({ src, percent, secText }) => {
     return (
         <>
             <section>
-                <svg className={styles.circleChart} viewbox="0 0 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-                    <circle stroke="#efefef" stroke-width="5" fill="none" cx="40" cy="40" r="30" />
-                    <circle className={styles.circleChart__circle} stroke-width="5" stroke-dasharray={`${percent},100`} stroke-linecap="round" fill="none" cx="40" cy="40" r="30" />
+                <svg className={styles.circleChart} viewBox="0 0 90 90" width="90" height="90" xmlns="http://www.w3.org/2000/svg">
+                    <circle stroke="#efefef" strokeWidth="5" fill="none" cx="45" cy="45" r="35" />
+                    <circle className={styles.circleChart__circle} strokeWidth="5" strokeDasharray={`${percent},290`} strokeLinecap="round" fill="none" cx="45" cy="45" r="35" />
                     <g className={styles.circleChart__info}>
-                        <text x="40" y="40" alignment-baseline="central" text-anchor="middle" font-size="16">{text}</text>
+                        <image href={src} height="40" x="28%" y="28%" />
                     </g>
                 </svg>
-                <div className={styles.secText}>{secText}</div>
             </section>
         </>
     )

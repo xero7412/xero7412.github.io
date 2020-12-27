@@ -8,7 +8,7 @@ const ProfilePic = () => {
             <div className={styles.textAlign}>
                 <img src={defaultPic} alt="pic" height="140px" />
                 <div className={styles.nameText}>
-                    TOSHI SHARMA
+                    toshi sharma
                     </div>
                 <div className={styles.smallText}>
                     front end engineer
