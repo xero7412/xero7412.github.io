@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/xero7412.github.io/static/css/main.3360fc62.chunk.css",
+    "main.js": "/xero7412.github.io/static/js/main.57c779cc.chunk.js",
+    "main.js.map": "/xero7412.github.io/static/js/main.57c779cc.chunk.js.map",
+    "runtime-main.js": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js",
+    "runtime-main.js.map": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js.map",
+    "static/js/2.24dec150.chunk.js": "/xero7412.github.io/static/js/2.24dec150.chunk.js",
+    "static/js/2.24dec150.chunk.js.map": "/xero7412.github.io/static/js/2.24dec150.chunk.js.map",
+    "index.html": "/xero7412.github.io/index.html",
+    "precache-manifest.2d0b73233b8e01e31769b8c5ae873d79.js": "/xero7412.github.io/precache-manifest.2d0b73233b8e01e31769b8c5ae873d79.js",
+    "service-worker.js": "/xero7412.github.io/service-worker.js",
+    "static/css/main.3360fc62.chunk.css.map": "/xero7412.github.io/static/css/main.3360fc62.chunk.css.map",
+    "static/js/2.24dec150.chunk.js.LICENSE.txt": "/xero7412.github.io/static/js/2.24dec150.chunk.js.LICENSE.txt",
+    "static/media/DThree.svg": "/xero7412.github.io/static/media/DThree.a542b86b.svg",
+    "static/media/MongoDB.svg": "/xero7412.github.io/static/media/MongoDB.c180896e.svg",
+    "static/media/index.module.scss": "/xero7412.github.io/static/media/Poppins-Thin.c0fafa83.ttf",
+    "static/media/SQL.svg": "/xero7412.github.io/static/media/SQL.6e03d1db.svg",
+    "static/media/VertX.svg": "/xero7412.github.io/static/media/VertX.ca6dd3f1.svg",
+    "static/media/index.css": "/xero7412.github.io/static/media/icomoon.af162edd.ttf",
+    "static/media/toshiSharma.jpg": "/xero7412.github.io/static/media/toshiSharma.a9512904.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb9f6bde.js",
+    "static/js/2.24dec150.chunk.js",
+    "static/css/main.3360fc62.chunk.css",
+    "static/js/main.57c779cc.chunk.js"
+  ]
+}
