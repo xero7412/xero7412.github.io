@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/xero7412.github.io/static/css/main.3360fc62.chunk.css",
-    "main.js": "/xero7412.github.io/static/js/main.828f6d9b.chunk.js",
-    "main.js.map": "/xero7412.github.io/static/js/main.828f6d9b.chunk.js.map",
+    "main.js": "/xero7412.github.io/static/js/main.06cfd2af.chunk.js",
+    "main.js.map": "/xero7412.github.io/static/js/main.06cfd2af.chunk.js.map",
     "runtime-main.js": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js",
     "runtime-main.js.map": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js.map",
-    "static/js/2.349e23ea.chunk.js": "/xero7412.github.io/static/js/2.349e23ea.chunk.js",
-    "static/js/2.349e23ea.chunk.js.map": "/xero7412.github.io/static/js/2.349e23ea.chunk.js.map",
+    "static/js/2.b073f355.chunk.js": "/xero7412.github.io/static/js/2.b073f355.chunk.js",
+    "static/js/2.b073f355.chunk.js.map": "/xero7412.github.io/static/js/2.b073f355.chunk.js.map",
     "index.html": "/xero7412.github.io/index.html",
-    "precache-manifest.8f7d59b5caa5f8d7eb15042603132716.js": "/xero7412.github.io/precache-manifest.8f7d59b5caa5f8d7eb15042603132716.js",
+    "precache-manifest.e6166e17659d50c90cdb33877cff8f79.js": "/xero7412.github.io/precache-manifest.e6166e17659d50c90cdb33877cff8f79.js",
     "service-worker.js": "/xero7412.github.io/service-worker.js",
     "static/css/main.3360fc62.chunk.css.map": "/xero7412.github.io/static/css/main.3360fc62.chunk.css.map",
-    "static/js/2.349e23ea.chunk.js.LICENSE.txt": "/xero7412.github.io/static/js/2.349e23ea.chunk.js.LICENSE.txt",
+    "static/js/2.b073f355.chunk.js.LICENSE.txt": "/xero7412.github.io/static/js/2.b073f355.chunk.js.LICENSE.txt",
     "static/media/DThree.svg": "/xero7412.github.io/static/media/DThree.a542b86b.svg",
     "static/media/MongoDB.svg": "/xero7412.github.io/static/media/MongoDB.c180896e.svg",
     "static/media/index.module.scss": "/xero7412.github.io/static/media/Poppins-Thin.c0fafa83.ttf",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bb9f6bde.js",
-    "static/js/2.349e23ea.chunk.js",
+    "static/js/2.b073f355.chunk.js",
     "static/css/main.3360fc62.chunk.css",
-    "static/js/main.828f6d9b.chunk.js"
+    "static/js/main.06cfd2af.chunk.js"
   ]
 }

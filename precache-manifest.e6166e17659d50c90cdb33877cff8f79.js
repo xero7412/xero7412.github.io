@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d5bab7c459c4d4160b423b07f4e41b4",
+    "revision": "15cc9282d10b094885305ef8b84ca2a0",
     "url": "/xero7412.github.io/index.html"
   },
   {
-    "revision": "7b9d59eb00d072956ea9",
+    "revision": "91a75adb485fc898d5c7",
     "url": "/xero7412.github.io/static/css/main.3360fc62.chunk.css"
   },
   {
-    "revision": "7c4943e96799be824052",
-    "url": "/xero7412.github.io/static/js/2.349e23ea.chunk.js"
+    "revision": "c4ca23e8ab313147629e",
+    "url": "/xero7412.github.io/static/js/2.b073f355.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/xero7412.github.io/static/js/2.349e23ea.chunk.js.LICENSE.txt"
+    "url": "/xero7412.github.io/static/js/2.b073f355.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b9d59eb00d072956ea9",
-    "url": "/xero7412.github.io/static/js/main.828f6d9b.chunk.js"
+    "revision": "91a75adb485fc898d5c7",
+    "url": "/xero7412.github.io/static/js/main.06cfd2af.chunk.js"
   },
   {
     "revision": "a15403cc937dfbf9c2b3",
