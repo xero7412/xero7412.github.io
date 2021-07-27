@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import cx from 'classnames';
 import styles from './HomePage.module.scss';
-import LeftNav from '../LeftNav/LeftNav';
-import RightSection from '../RightSection/RightSection';
-import About from '../RightSection/About/About';
-import ProfilePic from '../LeftNav/ProfilePic/ProfilePic';
-import SkillSet from '../LeftNav/SkillSet/SkillSet';
-import Information from '../LeftNav/Information/Information';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
+import Experience from '../Experience/Experience';
+import Education from '../Education/Education';
+import Information from '../Information/Information';
 
 const initialState = {
     checked: localStorage.getItem("theme") === "dark" ? true : false,
@@ -54,32 +53,32 @@ const HomePage = () => {
     };
 
     return (
-        <div className={cx("row mx-0 px-0",styles.bg)}>
-            <div id="image" className="col-xs-12 col-sm-3  mx-0 px-0"><ProfilePic/></div>
-            <div id="headline" className="col-xs-12 col-sm-9  mx-0 px-0 pull-right">
-                <About/>
-            </div>
-            
-            <div id="caption" className="col-xs-12 col-sm-3  mx-0 px-0"><SkillSet/></div>
-            
-            <div id="qty" className="col-xs-12 col-sm-9 pull-right  mx-0 px-0"><RightSection/></div>
-            <div id="desc" className={cx("col-xs-12 col-sm-3 mx-0 px-0",styles.infoCard)}><Information/></div>
-            
-            {/*<div className={cx(styles.leftNav,'col-sm-3')}>
-             <label className={styles.switch}>
-                  <input type="checkbox"
+        <div className={styles.bg}>
+            <div className={styles.pageContainer}>
+                {/* <label className={styles.switch}>
+                <input type="checkbox"
                     checked={checked}
                     onChange={() => toggleThemeChange()}
-                  />
-                  <div className={cx(styles.slider, styles.round)}></div>
-                </label> 
-                <LeftNav/>      
+                />
+                <div className={cx(styles.slider, styles.round)}></div>
+                </label> */}
+                
+                <div className={styles.headerNavBar}>
+                    <a href="#one" className={styles.navBtn}> about </a>
+                    <a href="#two" className={styles.navBtn}> skills </a>
+                    <a href="#three" className={styles.navBtn}> experience </a>
+                    <a href="#four" className={styles.navBtn}> education </a>
+                    <a href="#five" className={styles.navBtn}> information </a>
+                </div>
             </div>
-            <div className={cx(styles.rightNav,'col-sm-9')}>
-                <RightSection/>
-            </div>  
-    */}
-
+            <div className={styles.aboutBg}>
+              <div id="one" className={styles.sectionA}><About /></div>
+            </div>
+            
+            <div id="two" className={styles.aboutSection}><Skills /></div>
+            <div id="three" className={styles.sections}> <Experience /></div>
+            <div id="four" className={styles.sections}><Education /></div>
+            <div id="five" className={styles.sections}> <Information /></div>
         </div>
     )
 }

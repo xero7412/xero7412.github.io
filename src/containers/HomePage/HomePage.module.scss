@@ -1,25 +1,88 @@
-.leftNav{
-    background-color: var(--backgroundPrimary);
-    // overflow: auto;
-    // max-height: 100vh;
+
+html{
+    scroll-behavior: smooth;
+    background-color: #73939c;
 }
 
-.rightNav{
-    // overflow: auto;
-    // max-height: 100vh;
-    background-color: var(--backgroundPrimary)
+.bg{
+    background-color: white;
 }
 
-@media (min-width: 768px) {
-    .infoCard{
-margin-top: -850px;
+.sectionA{
+    border-radius: 0px 0px 50px 50px;
+    background: white;
+    padding: 8rem 0rem;
+}
+
+.aboutBg{
+    background-color: #73939c;
+    padding-bottom: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .pageContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
-  }
 
-  .bg{
-      background-color: #dddad8;
-  }
+    .headerNavBar{
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+        text-align: center;
+    }
+}
 
+@media only screen and (min-width: 768px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .headerNavBar{
+        margin-left: auto;
+        width: max-content;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+    }
+    .headerNavBar{
+        margin-left: auto;
+        width: max-content;
+    }
+}
+
+
+
+.pageContainer{
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: white;
+    border-radius: 0px 0px 50px 50px;
+    overflow: auto;
+
+    
+}
+
+.navBtn{
+    color: #8a8a8a;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    margin-left: 1rem;
+    &:hover{
+        text-decoration: none;
+        color: #8a8a8a;
+    }
+}
 
 //------------
 
@@ -67,7 +130,6 @@ margin-top: -850px;
 input:checked + .slider {
     background-color: rgb(255, 208, 0);
     border: 2px solid rgb(226, 145, 40);
-   
 }
 
 input:focus + .slider {
@@ -98,4 +160,3 @@ input:checked + .slider:after {
     // content: "🌙";
     left: 25%;
 }
-

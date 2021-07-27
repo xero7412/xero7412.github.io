@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .pageContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aboutCard {
+        padding: 3rem 3rem 5rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aboutCard {
+        padding: 5rem 3rem 5rem 3rem;
+        flex: 0 0 calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+    }
+    .aboutCard {
+        padding: 5rem 3rem 5rem 3rem;
+        flex: 0 0 calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+.paddingSection {
+    padding: 16rem 0rem 5rem 0rem;
+}
+
+.defaultPic {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    color: #73939c;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
+    font-size: 64px;
+    font-family: "Poppins-Thin";
+}
+
+.text {
+    color: #535c5f;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
+    font-size: 18px;
+    font-family: "Poppins-Light";
+    text-align: justify;
+}

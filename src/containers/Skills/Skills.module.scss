@@ -1,0 +1,94 @@
+@media only screen and (max-width: 600px) {
+    .pageContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        padding: 5rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .pageContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding: 8rem 5rem 5rem 5rem;
+    }
+}
+
+.heading {
+    font-size: 36px;
+    text-align: start;
+    font-weight: bold;
+    font-family: "Poppins-Thin";
+    color: #73939c;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.boxContainer {
+    background-color: white;
+    padding: 0rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.boxContainerSmall{
+    // background-color: white;
+    padding: 0rem;
+    border-radius: 16px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    background: rgba(256,256,256,1);
+    color: #73939c;
+    &:hover{
+        
+        img{
+            height: 56px;
+            transition: height 0.1s, transform 0.1s;
+        }
+    }
+    
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .boxContainerSmall {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+  }
+
+
+
+.headingSmallBold {
+    font-size: 22px;
+    text-align: start;
+    font-weight: bold;
+    font-family: "Poppins-Thin";
+    color: #73939c;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+.bg {
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.bgCurve{
+    background-color: #73939c;
+}
