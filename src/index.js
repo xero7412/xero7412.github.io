@@ -6,14 +6,14 @@ import './index.module.scss';
 import './index.css';
 import './theme.scss';
 import App from './App';
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 import * as serviceWorker from './serviceWorker';
 
 let app = (
   <BrowserRouter>
-    <ScrollToTop>
+    {/* <ScrollToTop> */}
       <App />
-    </ScrollToTop>
+    {/* </ScrollToTop> */}
   </BrowserRouter>
 )
 
