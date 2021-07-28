@@ -64,11 +64,11 @@ const HomePage = () => {
                 </label> */}
                 
                 <div className={styles.headerNavBar}>
-                    <a href="#one" className={styles.navBtn}> about </a>
+                    {/* <a href="#one" className={styles.navBtn}> about </a>
                     <a href="#two" className={styles.navBtn}> skills </a>
                     <a href="#three" className={styles.navBtn}> experience </a>
                     <a href="#four" className={styles.navBtn}> education </a>
-                    <a href="#five" className={styles.navBtn}> information </a>
+                    <a href="#five" className={styles.navBtn}> information </a> */}
                 </div>
             </div>
             <div className={styles.aboutBg}>
