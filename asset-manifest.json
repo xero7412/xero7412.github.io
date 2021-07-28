@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/xero7412.github.io/static/css/main.3360fc62.chunk.css",
-    "main.js": "/xero7412.github.io/static/js/main.ac80ffc3.chunk.js",
-    "main.js.map": "/xero7412.github.io/static/js/main.ac80ffc3.chunk.js.map",
-    "runtime-main.js": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js",
-    "runtime-main.js.map": "/xero7412.github.io/static/js/runtime-main.bb9f6bde.js.map",
-    "static/js/2.b073f355.chunk.js": "/xero7412.github.io/static/js/2.b073f355.chunk.js",
-    "static/js/2.b073f355.chunk.js.map": "/xero7412.github.io/static/js/2.b073f355.chunk.js.map",
-    "index.html": "/xero7412.github.io/index.html",
-    "precache-manifest.e0618a0882fd04af868ad02b0dbfa087.js": "/xero7412.github.io/precache-manifest.e0618a0882fd04af868ad02b0dbfa087.js",
-    "service-worker.js": "/xero7412.github.io/service-worker.js",
-    "static/css/main.3360fc62.chunk.css.map": "/xero7412.github.io/static/css/main.3360fc62.chunk.css.map",
-    "static/js/2.b073f355.chunk.js.LICENSE.txt": "/xero7412.github.io/static/js/2.b073f355.chunk.js.LICENSE.txt",
-    "static/media/DThree.svg": "/xero7412.github.io/static/media/DThree.a542b86b.svg",
-    "static/media/MongoDB.svg": "/xero7412.github.io/static/media/MongoDB.c180896e.svg",
-    "static/media/index.module.scss": "/xero7412.github.io/static/media/Poppins-Thin.c0fafa83.ttf",
-    "static/media/SQL.svg": "/xero7412.github.io/static/media/SQL.6e03d1db.svg",
-    "static/media/VertX.svg": "/xero7412.github.io/static/media/VertX.ca6dd3f1.svg",
-    "static/media/index.css": "/xero7412.github.io/static/media/icomoon.af162edd.ttf",
-    "static/media/toshiSharma.jpg": "/xero7412.github.io/static/media/toshiSharma.a9512904.jpg"
+    "main.css": "./static/css/main.59b44354.chunk.css",
+    "main.js": "./static/js/main.5de1428d.chunk.js",
+    "main.js.map": "./static/js/main.5de1428d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a85d3441.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a85d3441.js.map",
+    "static/js/2.b073f355.chunk.js": "./static/js/2.b073f355.chunk.js",
+    "static/js/2.b073f355.chunk.js.map": "./static/js/2.b073f355.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.d32f5da68c33b788645d7f0c5f7d7920.js": "./precache-manifest.d32f5da68c33b788645d7f0c5f7d7920.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.59b44354.chunk.css.map": "./static/css/main.59b44354.chunk.css.map",
+    "static/js/2.b073f355.chunk.js.LICENSE.txt": "./static/js/2.b073f355.chunk.js.LICENSE.txt",
+    "static/media/DThree.svg": "./static/media/DThree.a542b86b.svg",
+    "static/media/MongoDB.svg": "./static/media/MongoDB.c180896e.svg",
+    "static/media/index.module.scss": "./static/media/Poppins-Thin.c0fafa83.ttf",
+    "static/media/SQL.svg": "./static/media/SQL.6e03d1db.svg",
+    "static/media/VertX.svg": "./static/media/VertX.ca6dd3f1.svg",
+    "static/media/index.css": "./static/media/icomoon.af162edd.ttf",
+    "static/media/toshiSharma.jpg": "./static/media/toshiSharma.a9512904.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb9f6bde.js",
+    "static/js/runtime-main.a85d3441.js",
     "static/js/2.b073f355.chunk.js",
-    "static/css/main.3360fc62.chunk.css",
-    "static/js/main.ac80ffc3.chunk.js"
+    "static/css/main.59b44354.chunk.css",
+    "static/js/main.5de1428d.chunk.js"
   ]
 }
