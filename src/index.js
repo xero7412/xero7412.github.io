@@ -10,10 +10,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 let app = (
-  <BrowserRouter>
-    {/* <ScrollToTop> */}
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
-    {/* </ScrollToTop> */}
   </BrowserRouter>
 )
 
