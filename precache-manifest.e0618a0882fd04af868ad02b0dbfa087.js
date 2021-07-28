@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15cc9282d10b094885305ef8b84ca2a0",
+    "revision": "8ce114415a94f5ba907eab1250be0651",
     "url": "/xero7412.github.io/index.html"
   },
   {
-    "revision": "91a75adb485fc898d5c7",
+    "revision": "bf6810a9576dab907196",
     "url": "/xero7412.github.io/static/css/main.3360fc62.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xero7412.github.io/static/js/2.b073f355.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91a75adb485fc898d5c7",
-    "url": "/xero7412.github.io/static/js/main.06cfd2af.chunk.js"
+    "revision": "bf6810a9576dab907196",
+    "url": "/xero7412.github.io/static/js/main.ac80ffc3.chunk.js"
   },
   {
     "revision": "a15403cc937dfbf9c2b3",

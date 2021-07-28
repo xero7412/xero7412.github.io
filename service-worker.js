@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xero7412.github.io/precache-manifest.e6166e17659d50c90cdb33877cff8f79.js"
+  "/xero7412.github.io/precache-manifest.e0618a0882fd04af868ad02b0dbfa087.js"
 );
 
 self.addEventListener('message', (event) => {
