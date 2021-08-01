@@ -27,8 +27,7 @@
 
 .pageContainer {
     border-radius: 50px 50px 0px 0px;
-    // background-color: white;
-    background-color:  var(--backgroundPrimary);
+    background-color: var(--color2);
 }
 
 .heading {
@@ -36,7 +35,7 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: #535c5f;
+    color: var(--color4);
     margin-bottom: 4rem;
 }
 
@@ -44,7 +43,7 @@
     font-size: 18px;
     text-align: start;
     font-family: "Poppins-Light";
-    color: #535c5F;
+    color: var(--color4);
     margin-right: 2rem;
     display: inline-block;
     min-width: 7rem;
@@ -58,21 +57,20 @@
 }
 
 .boxContainer {
-    background-color: white;
+    background-color: var(--color2);
     padding: 0rem;
     border-radius: 20px;
     margin-right: 1rem;
 }
 
 .boxContainerSmall {
-    // background-color: white;
     padding: 0rem;
     border-radius: 16px;
     margin-right: 8px;
     margin-bottom: 8px;
     display: inline-block;
     background: rgba(256, 256, 256, 1);
-    color: #73939c;
+    color: var(--color1);
     &:hover {
         img {
             height: 56px;
@@ -93,7 +91,7 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: #73939c;
+    color: var(--color1);
 }
 
 .sticky {
@@ -103,5 +101,5 @@
 }
 
 .bg {
-    background-color: #73939c;
+    background-color: var(--color1);
 }

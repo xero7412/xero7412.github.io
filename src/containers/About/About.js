@@ -7,7 +7,7 @@ const About = () => {
 
     return (
         <div className={cx(styles.pageContainer, 'row')}>
-            <div className={cx(styles.defaultPic)}><img height="350px" src={defaultPic} alt="default"/></div>
+            <div className={cx(styles.defaultPic)}><img height="350px" src={defaultPic} alt="default" className={styles.pic}/></div>
             <div className={cx(styles.aboutCard)}>
                 <div className={styles.heading}>
                     Hi! I'm Toshi 

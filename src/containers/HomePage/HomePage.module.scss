@@ -1,21 +1,21 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #73939c;
+    background-color: var(--color1);
 }
 
 .bg{
-    background-color: white;
+    background-color: var(--color2);
 }
 
 .sectionA{
     border-radius: 0px 0px 50px 50px;
-    background: white;
+    background: var(--color2);
     padding: 8rem 0rem;
 }
 
 .aboutBg{
-    background-color: #73939c;
+    background-color: var(--color1);
     padding-bottom: 8rem;
 }
 
@@ -48,7 +48,6 @@ html{
     }
 }
 
-
 @media only screen and (min-width: 1200px) {
     .pageContainer {
         margin-left: auto;
@@ -61,101 +60,109 @@ html{
     }
 }
 
-
-
 .pageContainer{
     padding: 1rem 1rem 2rem 1rem;
-    background-color: white;
+    background-color: var(--color2);
     border-radius: 0px 0px 50px 50px;
     overflow: auto;
-
-    
 }
 
 .navBtn{
-    color: #8a8a8a;
+    color: var(--color3);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 16px;
     font-family: "Poppins-Regular";
     &:hover{
         text-decoration: none;
-        color: #8a8a8a;
+        color: var(--color3);
     }
 }
 
-//------------
+// ------- top nav
 
-.switch {
-    position: relative;
-    display: inline-block;
+.topnav {
+    overflow: hidden;
+    background-color: var(--color2);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: var(--color3) !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:not(:first-child){
+      float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--color2);
+    color: var(--color4);
+  }
+ 
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+//   --------
+
+.dropdownMenu{
+    background-color: #fff;
+    width: max-content;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 8px;
+    margin-top: -8px;
+}
+
+.theme1{
     width: 40px;
     height: 40px;
-    margin-top: 1rem;
-    // margin-left: auto;
-}
-
-.switch input {
-    display: none;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(7, 7, 80);
-    border: 2px solid #9c9898;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    background: linear-gradient(45deg, #73939c, #73939c 100%), linear-gradient(135deg, #ffffff, #ffffff), linear-gradient(225deg,  #8a8a8a,  #8a8a8a) , linear-gradient(225deg, #535c5f, #535c5f);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 50%;
+    // border: 2px solid #fff;
+    display: inline-block;
+    margin-right: 16px;
 }
 
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 30px;
-    width: 15px;
-    left: 3px;
-    bottom: 3px;
-    background-color: #9c9898;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    border-bottom-left-radius: 60px;
-    border-top-left-radius: 60px;
-}
-
-input:checked + .slider {
-    background-color: rgb(255, 208, 0);
-    border: 2px solid rgb(226, 145, 40);
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #9c9898;
-}
-
-input:checked + .slider:before {
-    // -webkit-transform: translateX(26px);
-    // -ms-transform: translateX(26px);
-    transform: scaleX(-1);
-    left: 19px;
-    background-color: rgb(226, 145, 40);
-}
-
-/*------ ADDED CSS ---------*/
-.slider:after {
-    // content: "🌞 ";
-    display: block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 80%;
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-}
-
-input:checked + .slider:after {
-    // content: "🌙";
-    left: 25%;
+.theme2{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #86c232, #86c232 100%), linear-gradient(135deg, #222629, #222629), linear-gradient(225deg, #474b4f, #474b4f) , linear-gradient(225deg, #6b6e70, #6b6e70);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    // border: 2px solid #fff;
+    display: inline-block;
 }

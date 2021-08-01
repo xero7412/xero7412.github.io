@@ -50,16 +50,20 @@
 }
 
 .heading {
-    color: #73939c;
+    color: var(--color1);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 64px;
     font-family: "Poppins-Thin";
 }
 
 .text {
-    color: #535c5f;
+    color: var(--color4);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 18px;
     font-family: "Poppins-Light";
     text-align: justify;
+}
+
+.pic{
+    border-radius: 50%;
 }

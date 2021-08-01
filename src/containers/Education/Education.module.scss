@@ -1,9 +1,9 @@
 .bg {
-    background-color: #73939c;
+    background-color: var(--color1);
 }
 
 .pageContainer{
-    background-color: white;
+    background-color: var(--color2);
     padding-bottom: 6rem !important;
 }
 
@@ -34,7 +34,7 @@
             margin-top: 10px;
             border-width: 6px;
             border-style: solid;
-            border-color: transparent #535c5f transparent transparent;
+            border-color: transparent var(--color4) transparent transparent;
         }
     }
 }
@@ -62,7 +62,7 @@
             margin-top: -7px;
             border-width: 6px;
             border-style: solid;
-            border-color: transparent transparent transparent #535c5f;
+            border-color: transparent transparent transparent var(--color4);
         }
     }
 }
@@ -90,7 +90,7 @@
             margin-top: -7px;
             border-width: 6px;
             border-style: solid;
-            border-color: transparent transparent transparent #535c5f;
+            border-color: transparent transparent transparent var(--color4);
         }
     }
 }
@@ -100,16 +100,16 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: #535c5f;
+    color: var(--color4);
     margin-bottom: 4rem;
 }
 
 .flagContent {
-    color: white;
+    color: var(--color2);
     font-family: "Poppins-Light";
     font-size: 16px;
     width: max-content;
-    background-color: #535c5f;
+    background-color: var(--color4);
     padding: 8px 22px;
     border-radius: 8px;
 }
@@ -120,16 +120,16 @@
 }
 
 .text {
-    color: #8a8a8a;
+    color: var(--color3);
     font-size: 16px;
     font-family: "Poppins-Light";
 }
 
 .timeline {
-    border-left: 2px solid #8a8a8a;
+    border-left: 2px solid var(--color3);
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    color: #535c5f;
+    color: var(--color4);
     font-size: 16px;
     font-family: "Poppins-Light";
     margin-left: 7rem;
@@ -159,9 +159,9 @@
         }
 
         &:after {
-            box-shadow: 0 0 0 4px#535c5f;
+            box-shadow: 0 0 0 4px var(--color4);
             left: (50px + 4px + (10px * 0.35)) * -1;
-            background: white;
+            background: var(--color2);
             border-radius: 50%;
             height: 11px;
             width: 11px;

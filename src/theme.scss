@@ -13,49 +13,16 @@ html.color-theme-in-transition *:after {
 
 html[data-theme="theme1"] {
     --color1: #73939c;
-    --color2: #dddad8;
+    --color2: #ffffff;
     --color3: #8a8a8a;
     --color4: #535c5f;
-    --color5: #5c767e;
-
-    /* global colors */
-    // --backgroundPrimary: #302730;
-    // --backgroundSecondary: #535c5f;
-    // --headerBg : #1b161b;
-    // --primaryBg: #221f22;
-    // --primaryTheme: #e52863;
-    // // --primaryBg: #1a1a1d;
-    // --primaryText: rgba(255, 255, 255, 0.8);
-    // --secondaryText: rgba(255, 255, 255, 0.6);
-    // --primaryButtonText: #fff;
-    // --primaryBorderBg: #292929;
-    // --activeSelectionBg: rgba(0, 0, 0, 0.18);
-    // --primaryShadowBg: rgba(8, 8, 8, 0.7);
 }
 
 html[data-theme="theme2"] {
-    --color1: #73939c;
-    --color2: #dddad8;
-    --color3: #8a8a8a;
-    --color4: #535c5f;
-    --color5: #5c767e;
-    /* global colors */
-    // --backgroundPrimary: #ad24ad;
-    // --backgroundSecondary: #535c5f;
-    // --headerBg : #1b161b;
-    // --primaryBg: #221f22;
-    // --primaryTheme: #e52863;
-    // // --primaryBg: #1a1a1d;
-    // --primaryText: rgba(255, 255, 255, 0.8);
-    // --secondaryText: rgba(255, 255, 255, 0.6);
-    // --primaryButtonText: #fff;
-    // --primaryBorderBg: #292929;
-    // --activeSelectionBg: rgba(0, 0, 0, 0.18);
-    // --primaryShadowBg: rgba(8, 8, 8, 0.7);
+    --color3: #86c232;
+    --color2: #222629;
+    // --color2: #dbbdbd;
+    --color1: #474b4f;
+    --color4: #6b6e70;
 }
 
-$color1: #73939c;
-$color2: #dddad8;
-$color3: #8a8a8a;
-$color4: #535c5f;
-$color5: #5c767e;

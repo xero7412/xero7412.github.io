@@ -26,13 +26,13 @@
 }
 
 .bg{
-    background-color: #73939c;
+    background-color: var(--color1);
     
 }
 
 .pageContainer{
     padding: 5rem 3rem 5rem 3rem;
-    background-color: #535c5f;
+    background-color: var(--color4);
     
 }
 
@@ -43,10 +43,10 @@
     font-size: 16px;
     font-family: "Poppins-Light";
     letter-spacing: 0.2px;
-    color: white;
+    color: var(--color2);
     &:hover{
         text-decoration: underline;
-        color: white;
+        color: var(--color2);
         cursor: pointer;
     }
 }

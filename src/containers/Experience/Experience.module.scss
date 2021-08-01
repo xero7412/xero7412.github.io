@@ -1,11 +1,11 @@
 
 .bg {
-    background-color: #73939c;
+    background-color: var(--color1);
     
 }
 
 .pageContainer{
-    background-color: white;
+    background-color: var(--color2);
     padding-bottom: 6rem !important;
 }
 
@@ -42,19 +42,19 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: #535c5f;
+    color: var(--color4);
     margin-bottom: 4rem;
 }
 
 .card{
     border-radius: 20px;
-    border: 1px dashed #8a8a8a;
+    border: 1px dashed var(--color3);
     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
 }
 
 .cardContainerLeft{
-    background-color: #8a8a8a;
-    color: white;
+    background-color: var(--color3);
+    color: var(--color2);
     font-size: 16px;
     font-family: "Poppins-Light";
     padding: 1rem 2rem;
@@ -64,8 +64,8 @@
 }
 
 .cardContainerRight{
-    color: #8a8a8a;
-    background-color: white;
+    color: var(--color3);
+    background-color: var(--color2);
     font-size: 16px;
     font-family: "Poppins-Light";
     border-radius: inherit;
