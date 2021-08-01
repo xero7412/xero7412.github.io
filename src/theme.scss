@@ -11,29 +11,37 @@ html.color-theme-in-transition *:after {
     transition-delay: 0 !important;
 }
 
-html{
-    /* global colors */
+html[data-theme="theme1"] {
+    --color1: #73939c;
+    --color2: #dddad8;
+    --color3: #8a8a8a;
+    --color4: #535c5f;
+    --color5: #5c767e;
 
-    --backgroundPrimary:  #dddad8;
-    --backgroundSecondary: #fff;
-    --textPrimary: #535c5F;
-    --bgTwo: #8a8a8a;
-//     --headerBg : #f0ebe2;
-//     --primaryBg: #ffffff;
-//     --primaryTheme: rgb(194, 46, 46);
-//     // --primaryBg: #aa88aa;
-//     --primaryText: #212121;
-//     --secondaryText: #7b7b7b;
-//     --primaryButtonText: #fff;
-//     --primaryBorderBg: #efefef;
-//     --activeSelectionBg: rgba(162, 162, 162, 0.1);
-//     --primaryShadowBg: rgba(204, 204, 204, 0.7);
+    /* global colors */
+    // --backgroundPrimary: #302730;
+    // --backgroundSecondary: #535c5f;
+    // --headerBg : #1b161b;
+    // --primaryBg: #221f22;
+    // --primaryTheme: #e52863;
+    // // --primaryBg: #1a1a1d;
+    // --primaryText: rgba(255, 255, 255, 0.8);
+    // --secondaryText: rgba(255, 255, 255, 0.6);
+    // --primaryButtonText: #fff;
+    // --primaryBorderBg: #292929;
+    // --activeSelectionBg: rgba(0, 0, 0, 0.18);
+    // --primaryShadowBg: rgba(8, 8, 8, 0.7);
 }
 
-html[data-theme="dark"] {
+html[data-theme="theme2"] {
+    --color1: #73939c;
+    --color2: #dddad8;
+    --color3: #8a8a8a;
+    --color4: #535c5f;
+    --color5: #5c767e;
     /* global colors */
-    --backgroundPrimary: #1b161b;
-    --backgroundSecondary: #535c5F;
+    // --backgroundPrimary: #ad24ad;
+    // --backgroundSecondary: #535c5f;
     // --headerBg : #1b161b;
     // --primaryBg: #221f22;
     // --primaryTheme: #e52863;
@@ -49,5 +57,5 @@ html[data-theme="dark"] {
 $color1: #73939c;
 $color2: #dddad8;
 $color3: #8a8a8a;
-$color4: #535c5F;
+$color4: #535c5f;
 $color5: #5c767e;

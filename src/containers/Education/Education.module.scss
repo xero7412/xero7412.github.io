@@ -1,12 +1,17 @@
 .bg {
+    background-color: #73939c;
+}
+
+.pageContainer{
     background-color: white;
+    padding-bottom: 6rem !important;
 }
 
 @media only screen and (max-width: 600px) {
     .pageContainer {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0rem 2rem;
     }
 
@@ -26,7 +31,7 @@
             position: absolute;
             top: 11%;
             right: 100%;
-            margin-top: -6px;
+            margin-top: 10px;
             border-width: 6px;
             border-style: solid;
             border-color: transparent #535c5f transparent transparent;
@@ -66,7 +71,7 @@
     .pageContainer {
         margin-left: auto;
         margin-right: auto;
-        width: 1200px;
+        width: 1000px;
         padding: 0rem 5rem;
     }
 
@@ -90,17 +95,13 @@
     }
 }
 
-.pageContainer{
-    margin-bottom: 7rem;
-}
-
 .heading {
     font-size: 36px;
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
     color: #535c5f;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .flagContent {
@@ -139,7 +140,6 @@
 
     .event {
         padding-bottom: 50px;
-        margin-bottom: 50px;
         position: relative;
 
         &:before,

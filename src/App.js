@@ -9,6 +9,7 @@ import React, { Component } from 'react';
 // import home from "./assets/icons/home.png";
 
 import HomePage from './containers/HomePage/HomePage';
+import AOS from 'aos';
 
 class App extends Component {
 
@@ -23,6 +24,7 @@ class App extends Component {
     document
       .getElementsByTagName("HTML")[0]
       .setAttribute("data-theme", localStorage.getItem("theme"));
+      AOS.init();
   }
 
   toggleThemeChange = () => {
