@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.scss';
-import defaultPic from '../../assets/icons/toshiSharma.jpg';
+import defaultPic from '../../assets/newIcons/toshiSharma.jpg';
 import cx from 'classnames'
 
 const About = () => {
