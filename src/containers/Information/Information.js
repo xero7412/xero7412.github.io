@@ -7,8 +7,6 @@ import github from '../../assets/newIcons/github.png';
 import linkedin from '../../assets/newIcons/linkedin.svg';
 
 const Information = () => {
-
-    console.log(`../../assets/Toshi_Sharma_(Resume)_${document.getElementsByTagName("HTML")[0].getAttribute("data-theme")}.pdf`)
     return (
         <div className={styles.bg}>
             <div className={cx(styles.pageContainer)}>
@@ -23,13 +21,12 @@ const Information = () => {
                         </a>
                     </div>
                     <div className="col-sm-6 mx-0 px-0 mt-2">
-                        <a href={`/Toshi_Sharma_(Resume)_${document.getElementsByTagName("HTML")[0].getAttribute("data-theme")}.pdf`} download className={styles.btn}>download 
+                        <a href={`/Toshi_Sharma_(Resume)_${document.getElementsByTagName("HTML")[0].getAttribute("data-theme")}.pdf`} download="Toshi_Sharma_resume" className={styles.btn}>download 
                         <div style={{transform: 'rotate(90deg)', display:'inline-block', marginLeft: '8px'}}>⇥</div></a>
                         <br />
                         <br />
                         <a href="https://github.com/xero7412" target='_blank' rel="noopener noreferrer"><img src={github} alt="" height="42px" className="mr-2" /></a>
                         <a href="https://www.linkedin.com/in/xero7412/" target='_blank' rel="noopener noreferrer"><img src={linkedin} alt="" height="54px" /></a>
-
                     </div>
                 </div>
             </div>
