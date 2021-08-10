@@ -50,14 +50,14 @@
 }
 
 .heading {
-    color: var(--color1);
+    color: var(--headingText);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 64px;
     font-family: "Poppins-Thin";
 }
 
 .text {
-    color: var(--color4);
+    color: var(--text);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 18px;
     font-family: "Poppins-Light";

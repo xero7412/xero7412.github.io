@@ -35,7 +35,7 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: var(--color4);
+    color: var(--headingText);
     margin-bottom: 4rem;
 }
 
@@ -43,7 +43,7 @@
     font-size: 18px;
     text-align: start;
     font-family: "Poppins-Light";
-    color: var(--color4);
+    color: var(--text);
     display: inline-block;
     min-width: 7rem;
     margin-top: auto;
@@ -56,44 +56,6 @@
     &:hover{
         filter: none;
     }
-}
-
-.boxContainer {
-    background-color: var(--color2);
-    padding: 0rem;
-    border-radius: 20px;
-    margin-right: 1rem;
-}
-
-.boxContainerSmall {
-    padding: 0rem;
-    border-radius: 16px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    display: inline-block;
-    background: rgba(256, 256, 256, 1);
-    color: var(--color1);
-    &:hover {
-        img {
-            height: 56px;
-            transition: height 0.1s, transform 0.1s;
-        }
-    }
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .boxContainerSmall {
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-    }
-}
-
-.headingSmallBold {
-    font-size: 22px;
-    text-align: start;
-    font-weight: bold;
-    font-family: "Poppins-Thin";
-    color: var(--color1);
 }
 
 .sticky {
@@ -109,6 +71,6 @@
 .infoText{
     font-size: 14px;
     font-family: "Poppins-Light";
-    color: var(--color1);
+    color: var(--subText);
     cursor: default;
 }

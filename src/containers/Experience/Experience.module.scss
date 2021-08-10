@@ -42,19 +42,19 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: var(--color4);
+    color: var(--headingText);
     margin-bottom: 4rem;
 }
 
 .card{
     border-radius: 20px;
-    border: 1px dashed var(--color3);
+    border: 1px dashed var(--headingText);
     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
 }
 
 .cardContainerLeft{
-    background-color: var(--color3);
-    color: var(--color2);
+    background-color: var(--headingText);
+    color: var(--info);
     font-size: 16px;
     font-family: "Poppins-Light";
     padding: 1rem 2rem;
@@ -65,7 +65,7 @@
 }
 
 .cardContainerRight{
-    color: var(--color3);
+    color: var(--text);
     background-color: var(--color2);
     font-size: 16px;
     font-family: "Poppins-Light";

@@ -68,13 +68,13 @@ html{
 }
 
 .navBtn{
-    color: var(--color3);
+    color: var(--headingText);
     // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 34%, 96% 0);
     font-size: 16px;
     font-family: "Poppins-Regular";
     &:hover{
         text-decoration: none;
-        color: var(--color3);
+        color: var(--headingText);
     }
 }
 
@@ -88,7 +88,7 @@ html{
   .topnav a {
     float: left;
     display: block;
-    color: var(--color3) !important;
+    color: var(--headingText) !important;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

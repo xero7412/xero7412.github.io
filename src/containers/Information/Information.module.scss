@@ -43,10 +43,10 @@
     font-size: 16px;
     font-family: "Poppins-Light";
     letter-spacing: 0.2px;
-    color: var(--color2);
+    color: var(--subHeading);
     &:hover{
         text-decoration: underline;
-        color: var(--color2);
+        color: var(--subHeading);
         cursor: pointer;
     }
 }

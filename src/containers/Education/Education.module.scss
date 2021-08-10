@@ -86,7 +86,7 @@
             content: "";
             position: absolute;
             top: 50%;
-            left: 64%;
+            left: 63%;
             margin-top: -7px;
             border-width: 6px;
             border-style: solid;
@@ -100,12 +100,12 @@
     text-align: start;
     font-weight: bold;
     font-family: "Poppins-Thin";
-    color: var(--color4);
+    color: var(--headingText);
     margin-bottom: 4rem;
 }
 
 .flagContent {
-    color: var(--color2);
+    color: var(--subHeading);
     font-family: "Poppins-Light";
     font-size: 16px;
     width: max-content;
@@ -120,7 +120,7 @@
 }
 
 .text {
-    color: var(--color3);
+    color: var(--subText);
     font-size: 16px;
     font-family: "Poppins-Light";
 }
@@ -169,4 +169,8 @@
             top: 16px;
         }
     }
+}
+
+.smallText{
+    color: var(--headingText);
 }

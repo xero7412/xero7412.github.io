@@ -19,7 +19,7 @@ const Education = () => {
                             </div>
                             <div className={styles.boldText}>BACHELOR OF TECHNOLOGY IN ELECTRONICS AND COMMUNICATION</div>
                             <div className={styles.text}>Jaypee University of Engineering and Technology, Guna</div>
-                            <i>CGPA : 8.2</i>
+                            <i className={styles.smallText}>CGPA : 8.2</i>
                         </li>
                         <li className={styles.event}>
                             <div className={styles.flag} data-aos="fade-right">
@@ -27,7 +27,7 @@ const Education = () => {
                             </div>
                             <div className={styles.boldText}>SENIOR SECONDARY EDUCATION</div>
                             <div className={styles.text}>Central Board of Secondary Education</div>
-                            <i>percentage : 73%</i>
+                            <i className={styles.smallText}>percentage : 73%</i>
                         </li>
                         <li className={styles.event}>
                             <div className={styles.flag} data-aos="fade-right">
@@ -35,7 +35,7 @@ const Education = () => {
                             </div>
                             <div className={styles.boldText}>HIGHER SECONDARY EDUCATION</div>
                             <div className={styles.text}>Central Board of Secondary Education</div>
-                            <i>CGPA : 10</i>
+                            <i className={styles.smallText}>CGPA : 10</i>
                         </li>
                     </ul>
                 </div>
