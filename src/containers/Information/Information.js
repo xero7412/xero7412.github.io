@@ -23,7 +23,7 @@ const Information = () => {
                         </a>
                     </div>
                     <div className="col-sm-6 mx-0 px-0 mt-2">
-                        <a href={`https://github.com/xero7412/xero7412.github.io/blob/master/src/assets/Toshi_Sharma_(Resume)_${document.getElementsByTagName("HTML")[0].getAttribute("data-theme")}.pdf`} download="Toshi_Sharma_Resume" className={styles.btn}>download 
+                        <a href={`/Toshi_Sharma_(Resume)_${document.getElementsByTagName("HTML")[0].getAttribute("data-theme")}.pdf`} download className={styles.btn}>download 
                         <div style={{transform: 'rotate(90deg)', display:'inline-block', marginLeft: '8px'}}>⇥</div></a>
                         <br />
                         <br />
