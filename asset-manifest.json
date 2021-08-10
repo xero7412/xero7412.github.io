@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.e38a01eb.chunk.css",
-    "main.js": "./static/js/main.b9a7f46d.chunk.js",
-    "main.js.map": "./static/js/main.b9a7f46d.chunk.js.map",
+    "main.css": "./static/css/main.5510f3ed.chunk.css",
+    "main.js": "./static/js/main.9d730417.chunk.js",
+    "main.js.map": "./static/js/main.9d730417.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.a85d3441.js",
     "runtime-main.js.map": "./static/js/runtime-main.a85d3441.js.map",
     "static/css/2.451bf2e4.chunk.css": "./static/css/2.451bf2e4.chunk.css",
-    "static/js/2.f715e618.chunk.js": "./static/js/2.f715e618.chunk.js",
-    "static/js/2.f715e618.chunk.js.map": "./static/js/2.f715e618.chunk.js.map",
+    "static/js/2.eb5dcc2a.chunk.js": "./static/js/2.eb5dcc2a.chunk.js",
+    "static/js/2.eb5dcc2a.chunk.js.map": "./static/js/2.eb5dcc2a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.3de9a894ea12a1c906bf86d7d694ab26.js": "./precache-manifest.3de9a894ea12a1c906bf86d7d694ab26.js",
+    "precache-manifest.4ca6e3d62b58d8cb1b9c95ff83e1c88b.js": "./precache-manifest.4ca6e3d62b58d8cb1b9c95ff83e1c88b.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.451bf2e4.chunk.css.map": "./static/css/2.451bf2e4.chunk.css.map",
-    "static/css/main.e38a01eb.chunk.css.map": "./static/css/main.e38a01eb.chunk.css.map",
-    "static/js/2.f715e618.chunk.js.LICENSE.txt": "./static/js/2.f715e618.chunk.js.LICENSE.txt",
+    "static/css/main.5510f3ed.chunk.css.map": "./static/css/main.5510f3ed.chunk.css.map",
+    "static/js/2.eb5dcc2a.chunk.js.LICENSE.txt": "./static/js/2.eb5dcc2a.chunk.js.LICENSE.txt",
     "static/media/index.module.scss": "./static/media/Poppins-Thin.c0fafa83.ttf",
     "static/media/bitbucket.svg": "./static/media/bitbucket.9c517cee.svg",
     "static/media/bootstrap.svg": "./static/media/bootstrap.6aae84ab.svg",
@@ -43,13 +43,13 @@
     "static/media/redux.svg": "./static/media/redux.aa0a3376.svg",
     "static/media/sass.svg": "./static/media/sass.b446ca5a.svg",
     "static/media/toshiSharma.jpg": "./static/media/toshiSharma.a9512904.jpg",
-    "static/media/vertx.svg": "./static/media/vertx.6278ea3a.svg"
+    "static/media/vertx.png": "./static/media/vertx.4c50796d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a85d3441.js",
     "static/css/2.451bf2e4.chunk.css",
-    "static/js/2.f715e618.chunk.js",
-    "static/css/main.e38a01eb.chunk.css",
-    "static/js/main.b9a7f46d.chunk.js"
+    "static/js/2.eb5dcc2a.chunk.js",
+    "static/css/main.5510f3ed.chunk.css",
+    "static/js/main.9d730417.chunk.js"
   ]
 }
