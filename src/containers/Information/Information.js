@@ -22,7 +22,7 @@ const Information = () => {
                     </div>
                     <div className="col-sm-6 mx-0 px-0 mt-2">
                         <a href="https://github.com/xero7412" target='_blank' rel="noopener noreferrer"><img src={github} alt="" height="42px" className="mr-2" /></a>
-                        <a href="https://www.linkedin.com/in/toshi-sharma/" target='_blank' rel="noopener noreferrer"><img src={linkedin} alt="" height="54px" /></a>
+                        <a href="https://www.linkedin.com/in/xero7412/" target='_blank' rel="noopener noreferrer"><img src={linkedin} alt="" height="54px" /></a>
                     </div>
                 </div>
             </div>

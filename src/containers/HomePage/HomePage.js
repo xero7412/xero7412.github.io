@@ -19,9 +19,6 @@ const initialState = {
 const HomePage = () => {
     const [state, setState] = useState(initialState);
     const { classStr, strc, dropdown } = state;
-    useEffect(() => {
-        localStorage.setItem("theme", 'theme1');
-    }, [])
 
     const myFunction = () => {
         setState({
@@ -37,12 +34,19 @@ const HomePage = () => {
         } else {
             strring = (cx("ml-auto", styles.topnav))
         }
-        console.log(strring)
         setState({
             ...state,
             strc: strring
         })
-    },[classStr])
+    }, [classStr])
+
+    useEffect(() => {
+        if (document.getElementsByTagName("HTML")[0].getAttribute("data-theme") === 'null') {
+            document.documentElement.setAttribute("data-theme", "theme1");
+            localStorage.setItem("theme", "theme1");
+        }
+
+    }, [])
 
 
     const toggleThemeChange = (colorTheme) => {
@@ -72,8 +76,6 @@ const HomePage = () => {
         })
     }
 
-    console.log(localStorage.getItem("theme"))
-
     return (
         <div className={styles.bg}>
             <div className={cx(styles.pageContainer)}>
@@ -81,35 +83,31 @@ const HomePage = () => {
                     <a onClick={() => handleThemeDropwon()}>
                         <div className={styles[document.getElementsByTagName("HTML")[0].getAttribute("data-theme")]} />
                     </a>
-                    <a href="#one" > about </a>
-                    <a href="#two" > skills </a>
-                    <a href="#three" > experience </a>
-                    <a href="#four" > education </a>
-                    <a href="#five" > information </a>
+                    <a href="#about" > about </a>
+                    <a href="#skills" > skills </a>
+                    <a href="#experience" > experience </a>
+                    <a href="#education" > education </a>
+                    <a href="#information" > information </a>
                     <a className={styles.icon} onClick={() => myFunction()}>
                         <img src={menu} alt="f" height="24px" />
                     </a>
                 </div>
                 {
-                dropdown && <div className={styles.dropdownMenu}>
-                    <div onClick={() => toggleThemeChange('theme1')} className={styles.theme1}>
-                        
+                    dropdown && <div className={styles.dropdownMenu}>
+                        <div onClick={() => toggleThemeChange('theme1')} className={styles.theme1} />
+                        <div onClick={() => toggleThemeChange('theme2')} className={styles.theme2} />
+                        <div onClick={() => toggleThemeChange('theme3')} className={styles.theme3} />
                     </div>
-                    <div onClick={() => toggleThemeChange('theme2')} className={styles.theme2}>
-                    </div>
-                </div>
-            }
+                }
             </div>
-            
-
 
             <div className={styles.aboutBg}>
-                <div id="one" className={styles.sectionA}><About /></div>
+                <div id="about" className={styles.sectionA}><About /></div>
             </div>
-            <div id="two" className={styles.aboutSection}><Skills /></div>
-            <div id="three" className={styles.sections}> <Experience /></div>
-            <div id="four" className={styles.sections}><Education /></div>
-            <div id="five" className={styles.sections}> <Information /></div>
+            <div id="skills" className={styles.aboutSection}><Skills /></div>
+            <div id="experience" className={styles.sections}> <Experience /></div>
+            <div id="education" className={styles.sections}><Education /></div>
+            <div id="information" className={styles.sections}> <Information /></div>
         </div>
     )
 }

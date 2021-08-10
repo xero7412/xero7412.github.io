@@ -11,7 +11,7 @@ html{
 .sectionA{
     border-radius: 0px 0px 50px 50px;
     background: var(--color2);
-    padding: 8rem 0rem;
+    padding: 6rem 0rem;
 }
 
 .aboutBg{
@@ -159,6 +159,20 @@ html{
     width: 40px;
     height: 40px;
     background: linear-gradient(45deg, #86c232, #86c232 100%), linear-gradient(135deg, #222629, #222629), linear-gradient(225deg, #474b4f, #474b4f) , linear-gradient(225deg, #6b6e70, #6b6e70);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 16px;
+    // border: 2px solid #fff;
+    display: inline-block;
+}
+
+
+.theme3{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #aaabb8, #aaabb8 100%), linear-gradient(135deg, #25274d, #25274d), linear-gradient(225deg, #2e9cca, #2e9cca) , linear-gradient(225deg, #464886, #464886);
     background-size: 50% 50%;
     background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
     background-repeat: no-repeat;

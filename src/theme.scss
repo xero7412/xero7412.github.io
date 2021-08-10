@@ -16,13 +16,34 @@ html[data-theme="theme1"] {
     --color2: #ffffff;
     --color3: #8a8a8a;
     --color4: #535c5f;
+
+    --headingText: #73939c;
+    --subHeading: #ffffff;
+    --text: #535c5f;
+    --subText: #8a8a8a;
 }
 
 html[data-theme="theme2"] {
     --color3: #86c232;
     --color2: #222629;
-    // --color2: #dbbdbd;
     --color1: #474b4f;
     --color4: #6b6e70;
+
+    --headingText: #86c232;
+    --subHeading: #222629;
+    --text: #6b6e70;
+    --subText: #474b4f;
+}
+
+html[data-theme="theme3"] {
+    --color4: #aaabb8;
+    --color1: #25274d;
+    --color3: #2e9cca;
+    --color2: #464886;
+
+    --headingText: #2e9cca;
+    --subHeading: #25274d;
+    --text: #aaabb8;
+    --subText: #464886;
 }
 

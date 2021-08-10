@@ -44,9 +44,11 @@
     text-align: start;
     font-family: "Poppins-Light";
     color: var(--color4);
-    margin-right: 2rem;
     display: inline-block;
     min-width: 7rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 1rem;
 }
 
 .icon{
@@ -102,4 +104,11 @@
 
 .bg {
     background-color: var(--color1);
+}
+
+.infoText{
+    font-size: 14px;
+    font-family: "Poppins-Light";
+    color: var(--color1);
+    cursor: default;
 }
