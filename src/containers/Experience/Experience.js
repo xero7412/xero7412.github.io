@@ -15,11 +15,11 @@ const Experience = () => {
 
         if (dots.style.display === "none") {
             dots.style.display = "inline";
-            btnText.innerHTML = "read more";
+            btnText.innerHTML = "read more ⇲";
             moreText.style.display = "none";
         } else {
             dots.style.display = "none";
-            btnText.innerHTML = "read less";
+            btnText.innerHTML = "read less ⇱";
             moreText.style.display = "inline";
         }
     }
@@ -80,7 +80,7 @@ const Experience = () => {
                                 </ul>
                                 <br />
                             </span>
-                            <button onClick={() => myFunction()} ref={btnRef} className={styles.btn}>read more</button>
+                            <button onClick={() => myFunction()} ref={btnRef} className={styles.btn}>read more ⇲</button>
                         </div>
                     </div>
                     <div className={cx(styles.card, "px-0 mt-5 mx-0")}>
