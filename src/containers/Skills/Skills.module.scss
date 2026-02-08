@@ -39,7 +39,7 @@
     margin-bottom: 4rem;
 }
 
-.headingSmall{
+.headingSmall {
     font-size: 18px;
     text-align: start;
     font-family: "Poppins-Light";
@@ -51,9 +51,10 @@
     padding-bottom: 1rem;
 }
 
-.icon{
+.icon {
     filter: grayscale(0.7);
-    &:hover{
+
+    &:hover {
         filter: none;
     }
 }
@@ -68,7 +69,7 @@
     background-color: var(--color1);
 }
 
-.infoText{
+.infoText {
     font-size: 14px;
     font-family: "Poppins-Light";
     color: var(--subText);

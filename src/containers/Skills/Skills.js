@@ -40,9 +40,11 @@ const Skills = () => {
                     <div className="row mx-0 px-0">
                         <div className={cx(styles.headingSmall, "col-sm-3 mx-0 px-0")}>specialities</div>
                         <div className="col-sm-9 mx-0 px-0">
-                            <div style={{ display: 'inline-block' }} className="mr-4">
-                                <img src={css} alt="" height="42px" className={cx("mr-4 my-2", styles.icon)} data-aos="flip-right" />
-                                <div className={styles.infoText}>CSS 3</div>
+                            <div style={{
+                                display: 'inline-block',
+                            }} className="mr-4">
+                                <img src={react} alt="" height="50px" className={cx("my-2 px-3", styles.icon)} data-aos="flip-right" />
+                                <div className={styles.infoText}>React Native</div>
                             </div>
                             <div style={{ display: 'inline-block' }} className="mr-4">
                                 <img src={react} alt="" height="50px" className={cx("mr-4 my-2", styles.icon)} data-aos="flip-right" />
@@ -51,6 +53,10 @@ const Skills = () => {
                             <div style={{ display: 'inline-block' }} className="mr-4">
                                 <img src={js} alt="" height="42px" className={cx("mr-4 my-2", styles.icon)} data-aos="flip-right" />
                                 <div className={styles.infoText}>JavaScript</div>
+                            </div>
+                            <div style={{ display: 'inline-block' }} className="mr-4">
+                                <img src={css} alt="" height="42px" className={cx("mr-4 my-2", styles.icon)} data-aos="flip-right" />
+                                <div className={styles.infoText}>CSS 3</div>
                             </div>
                         </div>
                     </div>

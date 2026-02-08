@@ -10,6 +10,7 @@ const Education = () => {
             <div className={cx(styles.pageContainer)}>
                 <div className={cx(styles.heading)}>
                     education
+
                 </div>
                 <div>
                     <ul className={styles.timeline} data-aos="fade-down">

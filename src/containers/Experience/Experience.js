@@ -36,52 +36,19 @@ const Experience = () => {
                             <div className={styles.expHeading}>Jupiter, Bangalore | April 2019 - Present</div>
                             <i>Software Development Engineer - 2</i>
                         </div>
-                        {/* <div className={cx(styles.cardContainerRight)}>
-                            I started as one of the first few members of the platform team responsible for developing some of the complex core modules being used by all of the existing products. I was responsible for massive refactoring where I removed dead code and created a completely atomic component library. I later worked on multiple products and gained experience in bootstrapping things and taking them to production.
-                            <br /><br />
-                            Currently, I’m part of the ‘attend’ product and my day-to-day responsibility includes writing highly scalable and reusable code, doing peer reviews, participating in sprint meetings, risk callouts, and bridging the gap between product requirements and implementation.
-                            <br /><br />
-                            Key achievements:
-                            <span ref={dotsRef}>&nbsp;</span><span ref={moreRef} className={styles.more}>
-                                <br /><br />
-                                1. Atomic Structure implementation - Platform
-                                <br />
-                                <ul>
-                                    <li>Created ReactJS custom component library following atomic structure pattern.</li>
-                                    <li>The entire application was divided into components based on atoms, molecules, organisms, and templates ensuring maximum code reusability.</li>
-                                </ul>
-                                <br />
-                                2. Theming - Platform
-                                <br />
-                                <ul>
-                                    <li>Introduced a centralized theme using SCSS consisting of font and styling variables.</li>
-                                </ul>
-                                <br />
-                                3. User Authentication and Oauth integration - Identity
-                                <br />
-                                <ul>
-                                    <li>Developed mobile-first user login/reset-password screens with OTP-based sign-in for our in-house IAM solution - Identity.</li>
-                                    <li>Integrated Identity with all web applications and created a generic framework for user access management on the front-end.</li>
-                                </ul>
-                                <br />
-                                4. Interactive Product Dashboards - Onboard/Verify
-                                <br />
-                                <ul>
-                                    <li>Developed products dashboard showcasing various insights using D3JS charts.</li>
-                                    <li>Introduced custom animations on top of those charts for better UX.</li>
-                                </ul>
-                                <br />
-                                5. Backend - Onboard/Verify/Attend
-                                <br />
-                                <ul>
-                                    <li>Started by writing CRUD APIs in Vert.x</li>
-                                    <li>Wrote automation bots for business workflows using Python and selenium.</li>
-                                    <li>Worked on features like bulk report download for over 200k plus employees using Kafka, NodeJS.</li>
-                                </ul>
-                                <br />
-                            </span>
-                            <button onClick={() => myFunction()} ref={btnRef} className={styles.btn}>read more ⇲</button>
-                        </div> */}
+                        <div className={cx(styles.cardContainerRight)}>
+                            <ul>
+                                <li>Currently independently leading the Insurance pod, owning technical execution, roadmap delivery, and building scalable frontend systems supporting onboarding of multiple policies and vendors.</li>
+                                <li>Architected PFM systems with interactive financial graphs, client-side caching, and a transactions list built for large datasets, infinite scroll, and complex user-driven filters, combined with a move to an in-house charting library, these improvements reduced landing load time from ~5s to ~1s.</li>
+                                <li>Took initiative of integrating OTA updates via Revopush, enabling faster iteration with weekly releases and cutting go-to-production timelines by 2–3 days.</li>
+                                <li>Owned critical payments modules, including pre-transaction EMI conversion for credit cards and UPI payment flows.</li>
+                                <li>Led development of a platform-level Transaction Details module reused across 15+ products and serving ~50K daily active users, with built-in A/B experimentation support.</li>
+                                <li>Drove frontend reliability initiatives, including Maestro-based automation, enabling a ~800-test CI-integrated sanity suite and reducing manual QA effort by ~3 days per release.</li>
+                                <li>Hands-on contributor to React Native platform upgrades (0.72 → 0.78), with experience handling breaking changes and library compatibility issues.</li>
+                                <li>Built a secure in-house biometric authentication library in Kotlin supporting PPI payments and app unlock flows.</li>
+                                <li>Designed and prototyped a Credit Score Tracker feature end-to-end during a hackathon, later productionised and adopted by ~3K MAUs.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className={cx(styles.card, "px-0 mt-5 mx-0")}>
                         <div className={cx(styles.cardContainerLeft)} data-aos="fade-down">
