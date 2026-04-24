@@ -33,26 +33,73 @@ const Experience = () => {
                 <div>
                     <div className={cx(styles.card, "px-0 mt-5 mx-0")}>
                         <div className={cx(styles.cardContainerLeft)} data-aos="fade-down">
-                            <div className={styles.expHeading}>Jupiter, Bangalore | April 2019 - Present</div>
+                            <div className={styles.expHeading}>Jupiter, Bangalore | April 2022 - Present</div>
                             <i>Software Development Engineer - 2</i>
                         </div>
                         <div className={cx(styles.cardContainerRight)}>
+                            <span style={{ textDecoration: 'underline' }}>Insurance platform</span>
                             <ul>
-                                <li>Currently independently leading the Insurance pod, owning technical execution, roadmap delivery, and building scalable frontend systems supporting onboarding of multiple policies and vendors.</li>
-                                <li>Architected PFM systems with interactive financial graphs, client-side caching, and a transactions list built for large datasets, infinite scroll, and complex user-driven filters, combined with a move to an in-house charting library, these improvements reduced landing load time from ~5s to ~1s.</li>
-                                <li>Took initiative of integrating OTA updates via Revopush, enabling faster iteration with weekly releases and cutting go-to-production timelines by 2–3 days.</li>
-                                <li>Owned critical payments modules, including pre-transaction EMI conversion for credit cards and UPI payment flows.</li>
-                                <li>Led development of a platform-level Transaction Details module reused across 15+ products and serving ~50K daily active users, with built-in A/B experimentation support.</li>
-                                <li>Drove frontend reliability initiatives, including Maestro-based automation, enabling a ~800-test CI-integrated sanity suite and reducing manual QA effort by ~3 days per release.</li>
-                                <li>Hands-on contributor to React Native platform upgrades (0.72 → 0.78), with experience handling breaking changes and library compatibility issues.</li>
-                                <li>Built a secure in-house biometric authentication library in Kotlin supporting PPI payments and app unlock flows.</li>
-                                <li>Designed and prototyped a Credit Score Tracker feature end-to-end during a hackathon, later productionised and adopted by ~3K MAUs.</li>
+
+                                <li>Led technical execution for the Insurance pod, building a modular component-driven architecture for dynamic
+                                    forms, configurable quotation flows, and product onboarding journeys</li>
+                                <li>Decreased vendor integration time from 7 days to under 1 day, while scaling to 5+ providers and serving 2,000+
+                                    monthly policies</li>
+                                <li>Created a frontend abstraction layer to normalize vendor-specific schemas into a unified contract.</li>
+
+                            </ul>
+                            <span style={{ textDecoration: 'underline' }}>Transactions Platform</span>
+                            <ul>
+                                <li>Architected a full-stack transaction module serving 50,000+ daily users across 15+ payment products</li>
+                                <li>Planned and executed a Backend for Frontend (BFF) layer using NestJS and GraphQL to aggregate 8+ downstream
+                                    backend services, simplifying frontend integrations</li>
+                                <li>Built a reusable modular component registry capable of powering any combination of UIs</li>
+                                <li>Lowered code duplication by 70%, improved load times, and cut new product integration time from days to a few
+                                    hours</li>
+                            </ul>
+                            <span style={{ textDecoration: 'underline' }}>Personal Finance Management (PFM)</span>
+                            <ul>
+                                <li>Built a data-heavy insights module handling 60,000+ transactions, reducing load time to under 1 second, an 80%
+                                    improvement Applied MMKV caching, virtualized lists, and an in-house charting library, improving performance
+                                    on low-end devices and reducing crashes by 80%</li>
+                                <li>Built 'Jupiter Wrapped' with complex WebView to React Native sync, audio lifecycle across story transitions, and a
+                                    cross-device performance strategy</li>
+                                <li>Scaled the PFM product to a 400% increase in monthly active users with features including credit card tracking,
+                                    monthly recap, and budgeting</li>
+                            </ul>
+                            <span style={{ textDecoration: 'underline' }}>Core Platform</span>
+                            <ul>
+                                <li>Introduced an AI-assisted UI generation workflow using Figma MCP and Claude Code, reducing component
+                                    development from ~2 days to 30 minutes; sole owner of architecture and context optimization strategy to
+                                    prevent LLM context exhaustion on large design systems
+                                </li>
+                                <li>
+                                    Introduced Over-the-Air (OTA) app updates, reducing internal QA cycle time from 4-5 hours to 30 minutes and
+                                    eliminating manual APK redistribution; extended to production, enabling weekly releases and same-day hotfix
+                                    deployment, cutting go-to-market time by 2-3 days per release
+                                </li>
+                                <li>
+                                    Built end-to-end (E2E) mobile testing infrastructure with CI and device farm integration, enabling the QA team to
+                                    author 1,500+ visual regression tests and achieving 60% coverage, reducing sanity-test cycles from 3 days to 6 hrs</li><li>
+                                    Led app performance optimization initiatives including contributions to the React Native 0.78 upgrade:
+                                    tree-shaking, profiled component rendering, removed unused dependencies, decreased bundle size by ~3MB,
+                                    and enabled new React Native architecture support
+                                </li>
+                            </ul>
+                            <span style={{ textDecoration: 'underline' }}>Security & Native Integrations</span>
+                            <ul>
+                                <li>
+                                    Built an in-house biometric authentication module in Kotlin using Android Keystore with hardware-backed key
+                                    generation and HMAC-SHA256 encryption
+                                </li>
+                                <li>
+                                    Developed a reusable React Native bridge responsible for secure authentication flows for payments and app unlock
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className={cx(styles.card, "px-0 mt-5 mx-0")}>
                         <div className={cx(styles.cardContainerLeft)} data-aos="fade-down">
-                            <div className={styles.expHeading}>Betterplace, Bangalore | June 2019 - Present</div>
+                            <div className={styles.expHeading}>Betterplace, Bangalore | June 2019 - March 2022</div>
                             <i>Software Development Engineer - 1</i>
                         </div>
                         <div className={cx(styles.cardContainerRight)}>
