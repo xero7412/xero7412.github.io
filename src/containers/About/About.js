@@ -14,9 +14,11 @@ const About = () => {
                     {/* <i class="icon-editPen"></i>  */}
                 </div>
                 <div className={styles.text}>
-                    I’m a front-end developer who is passionate about bringing static designs to life with quality code. I have been in this industry for 2.5+ years and have developed great proficiency in  SCSS, JavaScript, and ReactJS.
-                    <br /> <br />
-                    I thrive on learning something new every day, always open to grab onto technologies and trends. I’m a go-getter and like facing new challenges from time to time. I have experience in working in agile methodology and enjoy collaborating with different teams to deliver awesome products.
+                    I'm a Senior Software Development Engineer with 7 years of experience building and scaling React and React Native
+                    applications. Currently leading technical execution for the Insurance pod at Jupiter Money.
+                    <br /> <br />Proficient in JavaScript,
+                    TypeScript, React, React Native, and Node.js, with proven success in optimizing performance, reducing costs, and
+                    driving user engagement across web and mobile platforms.
                 </div>
             </div>
         </div>
